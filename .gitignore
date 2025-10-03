@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# But not these files/folders:
+!.gitignore
+!Dockerfile
+!package.json
+!cypress.config.js
+
+# Allow cypress folders and all their contents
+!cypress/
+!cypress/**
+
+# Exclude node_modules and Cypress output
+node_modules/
+cypress/videos/
+cypress/screenshots/

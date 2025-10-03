@@ -1,0 +1,9 @@
+{
+  "name": "bix-desafio-rafaelholanda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^15.3.0"
+  }
+}
