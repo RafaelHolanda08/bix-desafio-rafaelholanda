@@ -4,7 +4,7 @@ module.exports = defineConfig({
   e2e: {
 
     env: {
-      baseUrlAddress: 'http://localhost:3001',
+      baseUrlAddress: 'http://host.docker.internal:3001',
       validUserName :'user@test.com',
       validPassword :'user123',
     },
